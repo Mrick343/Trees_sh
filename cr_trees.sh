@@ -34,5 +34,6 @@ git clone -b cr-13.1 https://github.com/Mrick343/hardware_oneplus.git hardware/o
 # Clone Camera
 git clone -b 13.0 https://gitlab.com/PixelOS-Devices/proprietary_vendor_oplus_camera vendor/oplus/camera
 
-
+#Clone Firmware
+git clone -b 13.1 https://gitlab.com/Mrick343/vendor_firmware_martini.git vendor/firmware
 
