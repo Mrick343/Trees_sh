@@ -37,3 +37,5 @@ git clone -b 13.0 https://gitlab.com/PixelOS-Devices/proprietary_vendor_oplus_ca
 #Clone Firmware
 git clone -b 13.1 https://gitlab.com/Mrick343/vendor_firmware_martini.git vendor/firmware
 
+# Clone NrModeSwitcher
+git clone -b thirteen https://github.com/Mrick343/packages_apps_NrModeSwitcher packages/apps/NrModeSwitcher
