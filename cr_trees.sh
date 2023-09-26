@@ -14,16 +14,16 @@ echo "=================================="
 banner 2>1
 
 # Clone Device Tree
-git clone -b cr-13.1 git@github.com:Mrick343/device_oneplus_martini-pr.git device/oneplus/martini
+git clone -b cr-13.1 https://github.com/Mrick343/device_oneplus_martini-pr.git device/oneplus/martini
 
 # Clone Common Tree
-git clone -b cr-13.1 git@github.com:Mrick343/android_device_oneplus_sm8350-common-pr.git device/oneplus/sm8350-common
+git clone -b cr-13.1 https://github.com/Mrick343/android_device_oneplus_sm8350-common-pr.git device/oneplus/sm8350-common
 
 # Clone Device Vendor
 git clone -b thirteen https://github.com/Mrick343/proprietary_vendor_oneplus_martini.git vendor/oneplus/martini
 
 # Clone Common Vendor
-git clone -b cr-13.1 https://github.com/Mrick343/proprietary_vendor_oneplus_sm8350-common.git vendor/oneplus/sm8350-common
+git clone -b thirteen https://github.com/Mrick343/proprietary_vendor_oneplus_sm8350-common.git vendor/oneplus/sm8350-common
 
 # Cloning kernel tree
 git clone -b rebase-3 https://github.com/Mrick343/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
