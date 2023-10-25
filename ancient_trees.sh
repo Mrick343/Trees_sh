@@ -14,10 +14,10 @@ echo "=================================="
 banner 2>1
 
 # Clone Device Tree
-git clone -b 13T1 https://github.com/PixelExtended-Devices/device_oneplus_martini.git device/oneplus/martini
+git clone -b 13T1 https://github.com/Mrick343/android_device_oneplus_martini device/oneplus/martini
 
 # Clone Common Tree
-git clone -b 13T1 https://github.com/PixelExtended-Devices/device_oneplus_sm8350-common.git device/oneplus/sm8350-common
+git clone -b 13T1 https://github.com/Mrick343/android_device_oneplus_sm8350-common device/oneplus/sm8350-common
 
 # Clone Device Vendor
 git clone -b thirteen https://github.com/Mrick343/proprietary_vendor_oneplus_martini.git vendor/oneplus/martini
