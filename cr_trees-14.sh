@@ -14,7 +14,7 @@ echo "=================================="
 banner 2>1
 
 # Clone Device Tree
-git clone -b fourtenn https://github.com/Mrick343/device_oneplus_martini-pr.git device/oneplus/martini
+git clone -b fourteen https://github.com/Mrick343/device_oneplus_martini-pr.git device/oneplus/martini
 
 # Clone Common Tree
 git clone -b fourteen https://github.com/Mrick343/android_device_oneplus_sm8350-common-pr.git device/oneplus/sm8350-common
