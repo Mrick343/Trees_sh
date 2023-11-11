@@ -26,7 +26,7 @@ git clone -b thirteen https://github.com/Mrick343/proprietary_vendor_oneplus_mar
 git clone -b thirteen https://github.com/Mrick343/proprietary_vendor_oneplus_sm8350-common.git vendor/oneplus/sm8350-common
 
 # Cloning kernel tree
-git clone -b rebase-3 https://github.com/Mrick343/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
+git clone -b rebase-5 https://github.com/Mrick343/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
 
 # Clone hardware
 git clone -b droidx-13.1 https://github.com/Mrick343/hardware_oneplus.git hardware/oplus
