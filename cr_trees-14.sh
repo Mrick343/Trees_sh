@@ -26,7 +26,7 @@ git clone -b fourteen https://github.com/Mrick343/proprietary_vendor_oneplus_mar
 git clone -b fourteen https://github.com/Mrick343/proprietary_vendor_oneplus_sm8350-common.git vendor/oneplus/sm8350-common
 
 # Cloning kernel tree
-git clone -b rebase-5 https://github.com/Mrick343/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
+git clone -b fourteen https://github.com/Mrick343/android_kernel_oneplus_sm8350.git kernel/oneplus/sm8350
 
 # Clone hardware
 git clone -b fourteen https://github.com/Mrick343/hardware_oneplus.git hardware/oplus
@@ -37,3 +37,5 @@ git clone -b 13.0 https://gitlab.com/Mrick343/proprietary_vendor_oplus_camera ve
 # Clone NrModeSwitcher
 git clone -b thirteen https://github.com/Mrick343/packages_apps_NrModeSwitcher packages/apps/NrModeSwitcher
 
+# Firmware
+git clone -b 13.1 https://gitlab.com/Mrick343/vendor_firmware_martini.git vendor/firmware
