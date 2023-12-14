@@ -5,7 +5,7 @@ clear
 echo "=================================="
 echo "|                                |"
 echo "|  OnePlus 9RT 5G Setup Script   |"
-echo "|         Branch: cr-13.1        |"
+echo "|         Branch: fourteen       |"
 echo "|  Maintained By: Mrick343       |"
 echo "|                                |"
 echo "=================================="
@@ -33,9 +33,6 @@ git clone -b fourteen https://github.com/Mrick343/hardware_oneplus.git hardware/
 
 # Clone Camera
 git clone -b 13.0 https://gitlab.com/Mrick343/proprietary_vendor_oplus_camera vendor/oplus/camera
-
-# Clone NrModeSwitcher
-git clone -b thirteen https://github.com/Mrick343/packages_apps_NrModeSwitcher packages/apps/NrModeSwitcher
 
 # Firmware
 git clone -b 13.1 https://gitlab.com/Mrick343/vendor_firmware_martini.git vendor/firmware
